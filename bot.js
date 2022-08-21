@@ -1272,7 +1272,7 @@ function watchPricingStream() {
 
 		const liqPriceDistance =
 			(openPrice *
-				(posDai * 0.8 -
+				(posDai * 0.2 -
 					rolloverFee -
 					fundingFee)) /
 			posDai /
